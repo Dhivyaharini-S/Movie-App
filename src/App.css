@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: white;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  background-color: black;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Search */
+input {
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: red;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Movies Grid */
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Card */
+.card {
+  background: #222;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card button {
+  margin-top: 5px;
+  width: 100%;
+}
